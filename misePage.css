@@ -1,0 +1,184 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+#header{
+  background-color: #151515;
+  color: #A4A4A4;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#header ul{
+  margin: 0px;
+}
+
+#header ul li{
+  padding-top: 15px;
+  display: inline-block;
+}
+
+#caseLeader{
+  margin-left: 31px;
+  font-size: 21px;
+  padding-bottom: 15px;
+}
+#caseLeader:hover, .caseHeader:hover {
+  color: #FFF;
+}
+
+.caseHeader{
+  margin-left: 25px;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+#Vfat{
+  margin-left: 70px;
+  margin-top: 0px;
+}
+
+#pageHead{
+    font-size: 45px;
+    margin-top: 0px;
+    padding-top: 105px;
+}
+
+span{
+  font-size: 32px;
+  color: grey;
+}
+
+.fat{
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  position: relative;
+  height: 350px;
+}
+
+.fat2{
+  border-bottom: solid 1px grey;
+  position: relative;
+  height: 350px;
+}
+
+.gauche{
+  width: 700px;
+  height: 300px;
+  margin-top: 25px;
+  position: absolute;
+}
+
+.droite{
+  width: 35%;
+  height: 300px;
+  float: right;
+  margin-left:62%;
+  position: absolute;
+  margin-top: 35px;
+}
+
+.bouton{
+  background-color: #2E9AFE;
+  border-radius: 5px;
+  width: 140px;
+  height: 25px;
+  border: solid 1px #0174DF;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.bouton:hover{
+  background-color: #086A87;
+}
+
+.bouton p{
+  margin-top: 11px;
+  padding-left: 13px;
+  color: #FFF;
+}
+
+.flecheGauche{
+  background-color: white;
+  width: 4px;
+  height: 10px;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -27px;
+  transform:rotate(45deg);
+}
+
+.flecheDroit{
+  background-color: white;
+  width: 4px;
+  height: 10px;
+  position: absolute;
+  margin-left: 75% ;
+  margin-top: -32px;
+  transform: rotate(315deg);
+}
+
+#pageFoot{
+  height: 45px;
+  padding-top: 45px;
+  padding-bottom: 39px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+#recherche{
+  border: 1px solid grey;
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+}
+.carreFlecheGauche{
+  color: #2E9AFE;
+  margin: auto;
+  width:35px;
+  margin: 0px;
+  height: 35px;
+}
+
+.carre{
+  color: #2E9AFE;
+  border-left: 1px solid grey;
+  width:35px;
+  margin: 0px;
+  height: 35px;
+}
+
+#hack{
+  color: #FFF;
+  background-color: #0080FF;
+  border-left: 1px solid grey;
+  width:35px;
+  margin: 0px;
+  height: 35px;
+}
+
+.carre:hover, .carreFlecheGauche:hover{
+  background-color: #E6E6E6;
+}
+
+.carre:active, .carreFlecheGauche:active, #hack:active{
+  border: dashed 1px grey;
+}
+
+#recherche div p{
+  text-align: center;
+  height: 35px;
+  margin-top: 9px;
+}
+
+#copyright{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
